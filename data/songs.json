@@ -1,0 +1,335 @@
+[
+    {
+        "songs": {
+            "slug": "usseewa",
+            "title_romaji": "Usseewa",
+            "title_ja": "うっせぇわ",
+            "title_en": "Usseewa",
+            "is_cover": 0,
+            "album": null,
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "syudou",
+            "lyricist": "syudou",
+            "arranger": null,
+            "producer": null,
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2020-10-23",
+            "youtube_url": "https://www.youtube.com/watch?v=Qp3b-RXtz4w",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm37761910"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "readymade",
+            "title_romaji": "redimeido",
+            "title_ja": "レディメイド",
+            "title_en": "Readymade",
+            "is_cover": 0,
+            "album": null,
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "THREE",
+            "lyricist": "THREE",
+            "arranger": null,
+            "producer": null,
+            "featuring": null,
+            "guitar": null,
+            "bass": "Malo",
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-01-01",
+            "youtube_url": "https://www.youtube.com/watch?v=jg09lNupc1s",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm38056551"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "dried_flowers",
+            "title_romaji": "Dorai furawā",
+            "title_ja": "ドライフラワー",
+            "title_en": "Dried Flower",
+            "is_cover": 1,
+            "album": "Ado's Utattemita Album",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Yuuri",
+            "arranger": "Naoki Itai",
+            "producer": null,
+            "featuring": null,
+            "guitar": "Yuta Watanabe",
+            "bass": "Sakurai Rock",
+            "drums": "Akira Sakamoto",
+            "piano": "Nao Nishimura",
+            "mix_engineer": "Mixing Engineer",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2023-12-13",
+            "youtube_url": "https://www.youtube.com/watch?v=qhmrt3ZNgcs",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": "優里",
+            "release_date": "2020-10-25",
+            "youtube_url": "https://www.youtube.com/watch?v=kzZ6KXDM1RI",
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "odo",
+            "title_romaji": "odo",
+            "title_ja": "踊",
+            "title_en": "odo",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "TeddyLoid, Giga",
+            "lyricist": "DECO*27",
+            "arranger": "TeddyLoid, Giga",
+            "producer": "TeddyLoid, Giga",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-04-27",
+            "youtube_url": "https://www.youtube.com/watch?v=YnSW8ian29w",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm38668379"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "domestic_de_violence",
+            "title_romaji": "Domesutikku de Baiorensu",
+            "title_ja": "ドメスティックでバイオレンス",
+            "title_en": "Domestic De Violence",
+            "is_cover": 0,
+            "album": "Kyougen",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Kanaria",
+            "arranger": null,
+            "producer": "Kanaria",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=iRMYLKIWyUk",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "freedom",
+            "title_romaji": "furīdamu",
+            "title_ja": "FREEDOM",
+            "title_en": "Freedom",
+            "is_cover": 0,
+            "album": "Kyougen",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "jon-YAKITORY",
+            "arranger": null,
+            "producer": "jon-YAKITORY",
+            "featuring": null,
+            "guitar": "シンナイコウジ",
+            "bass": "Sasaki",
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=hgyGhu49sGc",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "fireworks",
+            "title_romaji": "hanabi",
+            "title_ja": "花火",
+            "title_en": "Fireworks",
+            "is_cover": 0,
+            "album": "Kyougen",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "WhaleDontSleep",
+            "arranger": null,
+            "producer": "WhaleDontSleep",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Vis",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=5_-TcIOxm60",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm40100114"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "aitakute",
+            "title_romaji": "aitakute",
+            "title_ja": "会いたくて",
+            "title_en": "Aitakute",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Mewhan",
+            "arranger": "Tsubasa Takada",
+            "producer": "mikitoP, Mewhan",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-08-12",
+            "youtube_url": "https://www.youtube.com/watch?v=jTVSU-Lr1ew",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm39175915"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "lucky_bruto",
+            "title_romaji": "Rakkii Buruuto",
+            "title_ja": "ラッキー・ブルート",
+            "title_en": "Lucky Brute",
+            "is_cover": 0,
+            "album": "Kyougen",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Hiiragi Kirai",
+            "arranger": null,
+            "producer": "Hiiragi Kirai",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Hiiragi Kirai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-14",
+            "youtube_url": "https://www.youtube.com/watch?v=u-G_zzhLSy8",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    }
+]
