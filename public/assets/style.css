@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #00072d;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #001c55;
+    height: 50px;
+    position: relative; 
+}
+
+.header-left {
+    position: absolute;
+    left: 20px;
+    color: #a6e1fa;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.header-center {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+  all: unset;
+}
+
+#search-results {
+    position: absolute; 
+    top: 29px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; 
+    background-color: #001c55;
+    z-index: 1000;
+    text-align: center;
+    color: #a6e1fa;
+    border: #0e6ba8 2px solid;
+    border-top: none;
+}
+
+#search-results a {
+    cursor: pointer;
+}
+
+#search-bar {
+    width: 300px;
+    height: 25px;
+    border: none;
+    background-color: #0a2472;
+    border: #0e6ba8 2px solid;
+    color: #a6e1fa;
+    padding-left: 5px;
+    outline: none;
+}
+
+#all_song_list {
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.song-item {
+    padding: 5px;
+    background-color: #0a2472;
+    text-align: center;
+    border: #0e6ba8 2px solid;
+    cursor: pointer;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #0e6ba8;
+  align-self: stretch
+}
+
+main {
+    text-align: center;
+    color: #a6e1fa;
+}
+#mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#isCover {
+    border: #0e6ba8 2px solid;
+    padding: 10px;
+    margin: 15px;
+    color: #a6e1fa;
+}
+#song-main {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+    padding: 15px;
+}
+
+.song-card {
+    border: #0e6ba8 2px solid;
+}
+
+.song-card a {
+    color: #0e6ba8;
+    cursor: pointer;
+}
+
+.links {
+    color: #0e6ba8;
+    cursor: pointer;
+}
