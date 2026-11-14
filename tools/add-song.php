@@ -1,136 +1,192 @@
 <?php
-
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $jsonLocation = __DIR__ . "/../data/songs.json";
-    $jsonContents = file_get_contents($jsonLocation);
-    $decodedJson = json_decode($jsonContents, true) ?? [];
-
-    $slug = trim($_POST['slug'] ?? '');
-    $title_romaji = trim($_POST['title_romaji'] ?? '');
-
-    $title_ja = trim($_POST['title_ja'] ?? '');
-    $title_ja = $title_ja === '' ? null : $title_ja;
-
-    $title_en = trim($_POST['title_en'] ?? '');
-    $title_en = $title_en === '' ? null : $title_en;
-
-    $is_cover = isset($_POST['is_cover']) ? 1 : 0;
-
-    $album = trim($_POST['album'] ?? '');
-    $album = $album === '' ? null : $album;
-
-    $notes = trim($_POST['notes'] ?? '');
-    $notes = $notes === '' ? null : $notes; 
-
-    $artist_name = trim($_POST['artist_name'] ?? '');
-    $release_date = trim($_POST['release_date'] ?? '');
-
-    $youtube_url = trim($_POST['youtube_url'] ?? '');
-    $youtube_url = $youtube_url === '' ? null : $youtube_url;
-
-    $niconico_url = trim($_POST['niconico_url'] ?? '');
-    $niconico_url = $niconico_url === '' ? null : $niconico_url;
-
-    $composer = trim($_POST['composer'] ?? '');
-    $composer = $composer === '' ? null : $composer;
-
-    $lyricist = trim($_POST['lyricist'] ?? '');
-    $lyricist = $lyricist === '' ? null : $lyricist;
-    
-    $arranger = trim($_POST['arranger'] ?? '');
-    $arranger = $arranger === '' ? null : $arranger;
-
-    $producer = trim($_POST['producer'] ?? '');
-    $producer = $producer === '' ? null : $producer;
-
-    $programmer = trim($_POST['programmer'] ?? '');
-    $programmer = $programmer === '' ? null : $programmer;
-
-    $mastering_engineer = trim($_POST['mastering_engineer'] ?? '');
-    $mastering_engineer = $mastering_engineer === '' ? null : $mastering_engineer;
-
-    $featuring = trim($_POST['featuring'] ?? '');
-    $featuring = $featuring === '' ? null : $featuring;
-
-    $guitar = trim($_POST['guitar'] ?? '');
-    $guitar = $guitar === '' ? null : $guitar;
-
-    $bass = trim($_POST['bass'] ?? '');
-    $bass = $bass === '' ? null : $bass;
-
-    $drums = trim($_POST['drums'] ?? '');
-    $drums = $drums === '' ? null : $drums;
-
-    $piano = trim($_POST['piano'] ?? '');
-    $piano = $piano === '' ? null : $piano;
-
-    $mix_engineer = trim($_POST['mix_engineer'] ?? '');
-    $mix_engineer = $mix_engineer === '' ? null : $mix_engineer;
-
-    $original_artist = trim($_POST['original_artist'] ?? '');
-    $original_artist = $original_artist === '' ? null : $original_artist;
-
-    $original_release_date = trim($_POST['original_release_date'] ?? '');
-    $original_release_date = $original_release_date === '' ? null : $original_release_date;
-
-    $original_youtube_url = trim($_POST['original_youtube_url'] ?? '');
-    $original_youtube_url = $original_youtube_url === '' ? null : $original_youtube_url;
-
-    $original_niconico_url = trim($_POST['original_niconico_url'] ?? '');
-    $original_niconico_url = $original_niconico_url === '' ? null : $original_niconico_url;
-
-    $newSong = [
-    'songs' => [
-        'slug' => $slug,
-        'title_romaji' => $title_romaji,
-        'title_ja' => $title_ja,
-        'title_en' => $title_en,
-        'is_cover' => $is_cover,
-        'album' => $album,
-        'notes' => $notes
-    ],
-    'song_credits' => [
-    'composer' => $composer,
-    'lyricist' => $lyricist,
-    'arranger' => $arranger,
-    'producer' => $producer,
-    'featuring' => $featuring,
-    'guitar' => $guitar,
-    'bass' => $bass,
-    'drums' => $drums,
-    'piano' => $piano,
-    'mix_engineer' => $mix_engineer,
-    'mastering_engineer' => $mastering_engineer,
-    'programmer' => $programmer
-    ],
-    'song_ado_data' => [
-        'artist_name' => $artist_name,
-        'release_date' => $release_date,
-        'youtube_url' => $youtube_url,
-        'niconico_url' => $niconico_url
-    ],
-    'song_original_data' => [
-        'artist' => $original_artist,
-        'release_date' => $original_release_date,
-        'youtube_url' => $original_youtube_url,
-        'niconico_url' => $original_niconico_url
-    ]
-];
-$decodedJson[] = $newSong;
-
-$encodedJson = json_encode($decodedJson, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES |JSON_UNESCAPED_UNICODE);
-$file = fopen($jsonLocation, 'c');
-flock($file, LOCK_EX);
-fwrite($file, $encodedJson);
-flock($file, LOCK_UN);
-fclose($file);
-header('Location: ' . $_SERVER['PHP_SELF']);
-exit;
+function post(string $name): string
+{
+    return trim($_POST[$name] ?? "");
 }
 
+function postOrNull(string $name): ?string
+{
+    $value = post($name);
+    return $value === "" ? null : $value;
+}
 
+function e(?string $value): string
+{
+    return htmlspecialchars($value ?? "", ENT_QUOTES, "UTF-8");
+}
 
+function isValidDate(string $value): bool
+{
+    $date = DateTimeImmutable::createFromFormat("Y-m-d", $value);
+    return $date !== false && $date->format("Y-m-d") === $value;
+}
 
+$jsonLocation = __DIR__ . "/../data/songs.json";
+$errors = [];
+$justSaved = isset($_GET["saved"]);
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $decodedJson = json_decode(
+        (string) @file_get_contents($jsonLocation),
+        true
+    );
+
+    if (!is_array($decodedJson)) {
+        $errors[] =
+            "data/songs.json is missing or is not valid JSON - refusing to write.";
+        $decodedJson = [];
+    }
+
+    $slug = strtolower(post("slug"));
+    $title_romaji = post("title_romaji");
+    $title_ja = postOrNull("title_ja");
+    $title_en = postOrNull("title_en");
+    $is_cover = isset($_POST["is_cover"]) ? 1 : 0;
+    $album = postOrNull("album");
+    $notes = postOrNull("notes");
+
+    $artist_name = post("artist_name");
+    $release_date = post("release_date");
+    $youtube_url = postOrNull("youtube_url");
+    $niconico_url = postOrNull("niconico_url");
+
+    if ($artist_name === "") {
+        $artist_name = "Ado";
+    }
+
+    $composer = postOrNull("composer");
+    $lyricist = postOrNull("lyricist");
+    $arranger = postOrNull("arranger");
+    $producer = postOrNull("producer");
+    $featuring = postOrNull("featuring");
+    $guitar = postOrNull("guitar");
+    $bass = postOrNull("bass");
+    $drums = postOrNull("drums");
+    $piano = postOrNull("piano");
+    $mix_engineer = postOrNull("mix_engineer");
+    $mastering_engineer = postOrNull("mastering_engineer");
+    $programmer = postOrNull("programmer");
+
+    $original_artist = postOrNull("original_artist");
+    $original_release_date = postOrNull("original_release_date");
+    $original_youtube_url = postOrNull("original_youtube_url");
+    $original_niconico_url = postOrNull("original_niconico_url");
+
+    if ($slug === "") {
+        $errors[] = "Slug is required.";
+    } elseif (!preg_match('/^[a-z0-9_-]+$/', $slug)) {
+        $errors[] = "Slug \"{$slug}\" may only contain lowercase letters, numbers, hyphens and underscores.";
+    } else {
+        $existingSlugs = array_column(
+            array_column($decodedJson, "songs"),
+            "slug"
+        );
+        if (in_array($slug, $existingSlugs, true)) {
+            $errors[] = "A song with the slug \"{$slug}\" already exists.";
+        }
+    }
+
+    if ($title_romaji === "") {
+        $errors[] = "Romaji title is required.";
+    }
+
+    if ($release_date === "") {
+        $errors[] = "Release date is required.";
+    } elseif (!isValidDate($release_date)) {
+        $errors[] = "Release date must be a real date in YYYY-MM-DD format.";
+    }
+
+    if (
+        $original_release_date !== null &&
+        !isValidDate($original_release_date)
+    ) {
+        $errors[] =
+            "Original release date must be a real date in YYYY-MM-DD format.";
+    }
+
+    if ($is_cover === 1 && $original_artist === null) {
+        $errors[] = "Covers must include the original artist.";
+    }
+
+    $urls = [
+        "Ado YouTube URL" => $youtube_url,
+        "Ado Niconico URL" => $niconico_url,
+        "Original YouTube URL" => $original_youtube_url,
+        "Original Niconico URL" => $original_niconico_url,
+    ];
+
+    foreach ($urls as $label => $url) {
+        if ($url !== null && filter_var($url, FILTER_VALIDATE_URL) === false) {
+            $errors[] = "{$label} is not a valid URL.";
+        }
+    }
+
+    $newSong = [
+        "songs" => [
+            "slug" => $slug,
+            "title_romaji" => $title_romaji,
+            "title_ja" => $title_ja,
+            "title_en" => $title_en,
+            "is_cover" => $is_cover,
+            "album" => $album,
+            "notes" => $notes,
+        ],
+        "song_credits" => [
+            "composer" => $composer,
+            "lyricist" => $lyricist,
+            "arranger" => $arranger,
+            "producer" => $producer,
+            "featuring" => $featuring,
+            "guitar" => $guitar,
+            "bass" => $bass,
+            "drums" => $drums,
+            "piano" => $piano,
+            "mix_engineer" => $mix_engineer,
+            "mastering_engineer" => $mastering_engineer,
+            "programmer" => $programmer,
+        ],
+        "song_ado_data" => [
+            "artist_name" => $artist_name,
+            "release_date" => $release_date,
+            "youtube_url" => $youtube_url,
+            "niconico_url" => $niconico_url,
+        ],
+        "song_original_data" => [
+            "artist" => $original_artist,
+            "release_date" => $original_release_date,
+            "youtube_url" => $original_youtube_url,
+            "niconico_url" => $original_niconico_url,
+        ],
+    ];
+
+    if ($errors === []) {
+        $decodedJson[] = $newSong;
+
+        $encodedJson = json_encode(
+            $decodedJson,
+            JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE
+        );
+
+        $handle = fopen($jsonLocation, "c");
+
+        if ($handle === false) {
+            $errors[] = "Could not open data/songs.json for writing.";
+        } elseif (!flock($handle, LOCK_EX)) {
+            $errors[] = "Could not lock data/songs.json.";
+            fclose($handle);
+        } else {
+            ftruncate($handle, 0);
+            rewind($handle);
+            fwrite($handle, $encodedJson);
+            fflush($handle);
+            flock($handle, LOCK_UN);
+            fclose($handle);
+
+            header("Location: " . $_SERVER["PHP_SELF"] . "?saved=1");
+            exit();
+        }
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -141,6 +197,21 @@ exit;
     <title>idunno</title>
   </head>
   <body>
+    <?php if ($errors !== []): ?>
+      <div class="form-errors">
+        <p><strong>Could not save:</strong></p>
+        <ul>
+          <?php foreach ($errors as $error): ?>
+            <li><?= e($error) ?></li>
+          <?php endforeach; ?>
+        </ul>
+      </div>
+    <?php endif; ?>
+
+    <?php if ($justSaved): ?>
+      <p class="form-success">Song added to data/songs.json. Run <code>php tools/sync.php</code> to push it into the database.</p>
+    <?php endif; ?>
+
     <form action="" method="post">
       <fieldset>
         <legend>Songs</legend>
