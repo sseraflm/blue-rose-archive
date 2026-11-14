@@ -25,7 +25,7 @@ $results = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
   <body>
     <header>
     <div class="header-left">
-        <a href="index.php" class="links">Blue Rose Archive</a>
+        <a href="/index.php" class="links">Blue Rose Archive</a>
     </div>
     
     <div class="header-center">
