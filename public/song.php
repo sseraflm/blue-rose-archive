@@ -51,7 +51,7 @@ if ($song['is_cover'] == 1) {
   <body>
     <header>
       <div class="header-left">
-        <a href="index.php" class="links">Blue Rose Archive</a>
+        <a href="/index.php" class="links">Blue Rose Archive</a>
       </div>
       
       <div class="header-center">
@@ -122,7 +122,7 @@ if ($song['is_cover'] == 1) {
         <?php endif; ?>
       </div>
     </main>
-    <script src="js/search.js"></script>
+    <script src="/js/search.js"></script>
   </body>
 
 </html>
