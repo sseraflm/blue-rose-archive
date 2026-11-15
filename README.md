@@ -58,6 +58,8 @@ Only `public/` is exposed as the Nginx document root, keeping configuration, dat
 | Album | Ado's Utattemita Album | Planned |
 | Album | Ado's Utattemita Album Vol. 2 | Not released yet |
 | Album | Ado's Best Adobum | Planned |
+| Singles | Standalone Single Releases | Planned |
+| Covers | Youtube / Niconico Covers | Planned |
 
 ## Setup
 
