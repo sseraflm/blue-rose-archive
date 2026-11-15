@@ -52,13 +52,13 @@ Only `public/` is exposed as the Nginx document root, keeping configuration, dat
 
 | Category | Release | Status | Count |
 | :--- | :--- | :--- | :--- |
-| Album | Kyōgen | In Progress | 14/14 |
-| Album | Uta no Uta | Planned | 088 |
-| Album | Zanmu | Planned | 0/16 | 
+| Album | Kyōgen | Completed | 14/14 |
+| Album | Uta no Uta | Completed | 8/8 |
+| Album | Zanmu | In Progress | 0/16 | 
 | Album | Ado's Utattemita Album | Planned | 0/10 |
 | Album | Ado's Utattemita Album Vol. 2 | Not released yet | ?/? |
-| Album | Ado's Best Adobum Disc 1| Planned | 10/20 |
-| Album | Ado's Best Adobum Disc 2 | Planned | 7/20 |
+| Album | Ado's Best Adobum Disc 1| In Progress | 10/20 |
+| Album | Ado's Best Adobum Disc 2 | In progress | 7/20 |
 | Singles | Standalone Single Releases | Planned | 0/23 |
 | Covers | Youtube / Niconico Covers | Planned | 1/112? |
 | Features | Songs where Ado is featured | Planned | 0/28 |
