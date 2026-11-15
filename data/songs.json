@@ -516,5 +516,301 @@
             "youtube_url": null,
             "niconico_url": null
         }
+    },
+    {
+        "songs": {
+            "slug": "new_genesis",
+            "title_romaji": "shinjidai",
+            "title_ja": "新時代",
+            "title_en": "New Genesis",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Yasutaka Nakata",
+            "arranger": "Yasutaka Nakata",
+            "producer": "Yasutaka Nakata",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Yasutaka Nakata",
+            "mastering_engineer": null,
+            "programmer": "Yasutaka Nakata"
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-06-08",
+            "youtube_url": "https://www.youtube.com/watch?v=1FliVTcX8bQ",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "im_invincible",
+            "title_romaji": "watashi wa saikyō",
+            "title_ja": "私は最強",
+            "title_en": "I'm Invincible",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Motoki Ohmori",
+            "arranger": "Mrs. GREEN APPLE, Ken Ito(Horn Arranger, String Arranger)",
+            "producer": "Motoki Ohmori",
+            "featuring": "Anzu Suhara(Violin),Tsukasa Nagura(Violin),Honoka Sato(Violin),Kon Shirasu(Violin),Sena Oshima(Violin),Daisuke Yamamoto(Violin),Yuki Nakajima(Violin),Mei Mishina(Violin),Sumire Segawa(Violin),Shino Miwa(Violin),SHUHEI ITO(Cello),Sonoko Muraoka(Cello),Tatsuhiko Yoshizawa(Trumpet),Nobuhide Handa(Trombone),Junya Kondo(Alto Saxophone)",
+            "guitar": "Motoki Ohmori(Electric),Hiloto Wakai(Electric)",
+            "bass": "Natsuhiko Mori(Electric)",
+            "drums": "hideyuki kurakazu(Drums, Triangle, Tambourine)",
+            "piano": "Ryoka Fujisawa",
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-06-22",
+            "youtube_url": "https://www.youtube.com/watch?v=sk1Z-Hqwwog",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "backlight",
+            "title_romaji": "Gyakkō",
+            "title_ja": "逆光",
+            "title_en": "Backlight",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "VAUNDY",
+            "arranger": "VAUNDY",
+            "producer": "VAUNDY",
+            "featuring": "VAUNDY (Performer)",
+            "guitar": "TAIKING",
+            "bass": "上ちゃん",
+            "drums": "BOBO",
+            "piano": null,
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-07-06",
+            "youtube_url": "https://www.youtube.com/watch?v=gt-v_YCkaMY",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "fleeting_lullaby",
+            "title_romaji": "Utakata Rarabai",
+            "title_ja": "ウタカタララバイ",
+            "title_en": "Fleeting Lullaby",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "DYES IWASAKI",
+            "lyricist": "TOPHAMHAT-KYO",
+            "arranger": null,
+            "producer": "DYES IWASAKI",
+            "featuring": null,
+            "guitar": "Johngarabushi",
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-08-06",
+            "youtube_url": "https://www.youtube.com/watch?v=hyV1AJiFNyo",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "tot_musica",
+            "title_romaji": "Totto Mujika",
+            "title_ja": "トットムジカ",
+            "title_en": "Tot Musica",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "Hiroyuki Sawano",
+            "lyricist": "cAnON",
+            "arranger": "Hiroyuki Sawano",
+            "producer": "Hiroyuki Sawano",
+            "featuring": "Hiroyuki Sawano (Background Vocals), Hiroshi Iimuro(Background Vocals),KOHTA YAMAMOTO(Background Vocals),Rie(Background Vocals)",
+            "guitar": "Hiroshi Iimuro",
+            "bass": "Toshino Tanabe",
+            "drums": "Makoto Fujisaki",
+            "piano": "Hiroyuki Sawano (Piano, Keyboard)",
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-08-10",
+            "youtube_url": "https://www.youtube.com/watch?v=V9_ZpqfqHFI",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "the_worlds_continuation",
+            "title_romaji": "Sekai no Tsuzuki",
+            "title_ja": "世界のつづき",
+            "title_en": "The World's Continuation",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "Yuta Orisaka",
+            "lyricist": "Yuta Orisaka",
+            "arranger": "Daisuke Kawaguchi",
+            "producer": "Yuta Orisaka",
+            "featuring": "Erika Aoyama Strings (String instrument)",
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": "Daisuke Kawaguchi (Piano)",
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": "Daisuke Kawaguchi"
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-08-10",
+            "youtube_url": "https://www.youtube.com/watch?v=b3GCfyNKeLs",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "where_the_wind_blows",
+            "title_romaji": "Kaze no Yukue",
+            "title_ja": "風のゆくえ",
+            "title_en": "Where the Wind Blows",
+            "is_cover": 0,
+            "album": "Uta's Songs: One Piece Film Red",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "Hata Motohiro",
+            "lyricist": "Hata Motohiro",
+            "arranger": "Hata Motohiro,Tomi Yo",
+            "producer": "Hata Motohiro",
+            "featuring": "Koichiro Muroya Strings(Strings),Satoshi Shoji(Oboe),Otohiko Fujita(Horn),Tomoyo Shoji(Horn),Tomoyuki Asakawa(Harp),Ryoichi Kayatani(Percussion),Shiori Sasaki(Background Vocals),Mayumi Watanabe(Background Vocals),Mika Akiba(Background Vocals),Kenta Isohi(Background Vocals),Keisuke Oyama(Background Vocals),Hideyo Takakuwa(Piccolo Flute),SAK.(Background Vocals)",
+            "guitar": "Hiroomi Shitara (Acoustic Guitar)",
+            "bass": "Yu Suto",
+            "drums": "Noriyasu \"Kaasuke\" Kawamura",
+            "piano": "Tomi Yo",
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": "Hata Motohiro"
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-08-10",
+            "youtube_url": "https://www.youtube.com/watch?v=3HuyRf6tV4E",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "binkusuno_sake",
+            "title_romaji": "Binkusu no Sake",
+            "title_ja": "ビンクスの酒",
+            "title_en": "Binks' Sake",
+            "is_cover": 1,
+            "album": "Uta's Songs: One Piece Film Red",
+            "notes": "Special track on Uta's Songs: One Piece Film Red."
+        },
+        "song_credits": {
+            "composer": "Kohei Tanaka",
+            "lyricist": "Eiichiro Oda",
+            "arranger": "Nishi-ken",
+            "producer": null,
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": "Nishi-ken"
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-08-10",
+            "youtube_url": null,
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": "Brook (Chō)",
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
     }
 ]
