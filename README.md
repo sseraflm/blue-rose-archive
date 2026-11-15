@@ -60,6 +60,7 @@ Only `public/` is exposed as the Nginx document root, keeping configuration, dat
 | Album | Ado's Best Adobum | Planned |
 | Singles | Standalone Single Releases | Planned |
 | Covers | Youtube / Niconico Covers | Planned |
+| Features | Songs where Ado is featured | Planned |
 
 ## Setup
 
