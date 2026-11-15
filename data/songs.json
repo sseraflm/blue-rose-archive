@@ -781,7 +781,7 @@
             "slug": "binkusuno_sake",
             "title_romaji": "Binkusu no Sake",
             "title_ja": "ビンクスの酒",
-            "title_en": "Binks' Sake",
+            "title_en": "BINKUSUNO SAKE",
             "is_cover": 1,
             "album": "Uta's Songs: One Piece Film Red",
             "notes": "Special track on Uta's Songs: One Piece Film Red."
@@ -789,16 +789,16 @@
         "song_credits": {
             "composer": "Kohei Tanaka",
             "lyricist": "Eiichiro Oda",
-            "arranger": "Nishi-ken",
+            "arranger": "Nishi-ken, Daisuke Kadowaki(String Arranger)",
             "producer": null,
-            "featuring": null,
+            "featuring": "Daisuke Kadowaki(Violin),Daisuke Yamamoto(Violin),Sena Oshima(Viola),Toshiyuki Muranaka(Cello)",
             "guitar": null,
             "bass": null,
             "drums": null,
-            "piano": null,
+            "piano": "nishi-ken",
             "mix_engineer": null,
             "mastering_engineer": null,
-            "programmer": "Nishi-ken"
+            "programmer": "nishi-ken"
         },
         "song_ado_data": {
             "artist_name": "Ado",
