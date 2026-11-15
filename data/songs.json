@@ -35,5 +35,486 @@
             "youtube_url": null,
             "niconico_url": null
         }
+    },
+    {
+        "songs": {
+            "slug": "odo",
+            "title_romaji": "Odo",
+            "title_ja": "踊",
+            "title_en": "Odo",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": "Giga,TeddyLoid",
+            "lyricist": "DECO*27",
+            "arranger": "Giga,TeddyLoid",
+            "producer": "Giga,TeddyLoid",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Giga",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-04-27",
+            "youtube_url": "https://www.youtube.com/watch?v=YnSW8ian29w",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "domestic_de_violence",
+            "title_romaji": "Domesutikku de Baiorensu",
+            "title_ja": "ドメスティックでバイオレンス",
+            "title_en": "Domestic De Violence",
+            "is_cover": 0,
+            "album": "Kyougen",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Kanaria",
+            "arranger": null,
+            "producer": "Kanaria",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=iRMYLKIWyUk",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "freedom",
+            "title_romaji": "furīdamu",
+            "title_ja": null,
+            "title_en": "FREEDOM",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "jon-YAKITORY",
+            "arranger": null,
+            "producer": "jon-YAKITORY",
+            "featuring": null,
+            "guitar": "Koji Shinnai",
+            "bass": "Sasaki",
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=hgyGhu49sGc",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "fireworks",
+            "title_romaji": "hanabi",
+            "title_ja": "花火",
+            "title_en": "Fireworks",
+            "is_cover": 0,
+            "album": "Kyougen",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "WhaleDontSleep",
+            "arranger": null,
+            "producer": "WhaleDontSleep",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Vis",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=5_-TcIOxm60",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm40100114"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "aitakute",
+            "title_romaji": "aitakute",
+            "title_ja": "会いたくて",
+            "title_en": "I want to see you",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Mewhan",
+            "arranger": "Tsubasa Takada",
+            "producer": "mikitoP,Mewhan",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-08-12",
+            "youtube_url": "https://www.youtube.com/watch?v=jTVSU-Lr1ew",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm39175915"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "lucky_bruto",
+            "title_romaji": "Rakkii Buruuto",
+            "title_ja": "ラッキー・ブルート",
+            "title_en": "Lucky Bruto",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Hiiragi Kirai",
+            "arranger": null,
+            "producer": "Hiiragi Kirai",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Hiiragi Kirai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=u-G_zzhLSy8",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "gira_gira",
+            "title_romaji": "giragira",
+            "title_ja": "ギラギラ",
+            "title_en": "Gira Gira",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Teniwoha",
+            "arranger": null,
+            "producer": "Teniwoha",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-02-14",
+            "youtube_url": "https://www.youtube.com/watch?v=sOiMD45QGLs",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm38325925"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "ashura_chan",
+            "title_romaji": "Ashura-chan",
+            "title_ja": "阿修羅ちゃん",
+            "title_en": "Ashura-chan",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Neru",
+            "arranger": null,
+            "producer": "Neru",
+            "featuring": "Atsuki Yumoto(Trumpet), Hiromuucho(Saxophone), Toshihiro Kawashima(Trombone)",
+            "guitar": null,
+            "bass": "Tatsuya Kitani",
+            "drums": "Yumao",
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-10-28",
+            "youtube_url": "https://www.youtube.com/watch?v=cyq5-StPISU",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm39816151"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "kokoro_toiu_na_no_fukakai",
+            "title_romaji": "Kokoro to iu na no fukakai",
+            "title_ja": "心という名の不可解",
+            "title_en": "The Mystery Called the Heart",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "Mafumafu",
+            "arranger": null,
+            "producer": "Mafumafu",
+            "featuring": null,
+            "guitar": "Zenkou Mitsuya",
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-17",
+            "youtube_url": "https://www.youtube.com/watch?v=BMb5IetESGE",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm40065655"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "usseewa",
+            "title_romaji": "Usseewa",
+            "title_ja": "うっせぇわ",
+            "title_en": "Shut Up",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "syudou",
+            "arranger": null,
+            "producer": "syudou",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": null,
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2020-10-23",
+            "youtube_url": "https://www.youtube.com/watch?v=Qp3b-RXtz4w",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm37761910"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "motherland",
+            "title_romaji": "motherland",
+            "title_ja": "マザーランド",
+            "title_en": "Motherland",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "NILFRUITS",
+            "arranger": "NILFRUITS",
+            "producer": "NILFRUITS",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=_wZfYtYwxro",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "kagakushu",
+            "title_romaji": "kagakushu",
+            "title_ja": "過学習",
+            "title_en": "Overfitting",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "INE",
+            "arranger": null,
+            "producer": "INE",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2022-01-26",
+            "youtube_url": "https://www.youtube.com/watch?v=55W2LxbQoHc",
+            "niconico_url": null
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    },
+    {
+        "songs": {
+            "slug": "yoru_no_pierrot",
+            "title_romaji": "yoru no piero",
+            "title_ja": "夜のピエロ",
+            "title_en": "Pierrot of the Night",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 1)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "biz",
+            "arranger": null,
+            "producer": "biz",
+            "featuring": null,
+            "guitar": null,
+            "bass": null,
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "前田和哉",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2021-06-14",
+            "youtube_url": "https://www.youtube.com/watch?v=cSgZxz3le7s",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm38908617"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
     }
 ]
