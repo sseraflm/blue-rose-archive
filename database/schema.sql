@@ -46,7 +46,7 @@ CREATE TABLE `song_credits` (
   `lyricist` varchar(255) DEFAULT NULL,
   `arranger` varchar(255) DEFAULT NULL,
   `producer` varchar(255) DEFAULT NULL,
-  `featuring` varchar(255) DEFAULT NULL,
+  `featuring` text DEFAULT NULL,
   `guitar` varchar(255) DEFAULT NULL,
   `bass` varchar(255) DEFAULT NULL,
   `drums` varchar(255) DEFAULT NULL,
