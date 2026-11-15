@@ -1,0 +1,39 @@
+[
+    {
+        "songs": {
+            "slug": "readymade",
+            "title_romaji": "redimeido",
+            "title_ja": "レディメイド",
+            "title_en": "Readymade",
+            "is_cover": 0,
+            "album": "Kyougen, Ado's Best Adobum (DISC 2)",
+            "notes": null
+        },
+        "song_credits": {
+            "composer": null,
+            "lyricist": "THREEE",
+            "arranger": null,
+            "producer": "THREEE",
+            "featuring": null,
+            "guitar": null,
+            "bass": "Malo",
+            "drums": null,
+            "piano": null,
+            "mix_engineer": "Naoki Itai",
+            "mastering_engineer": null,
+            "programmer": null
+        },
+        "song_ado_data": {
+            "artist_name": "Ado",
+            "release_date": "2020-12-24",
+            "youtube_url": "https://www.youtube.com/watch?v=jg09lNupc1s",
+            "niconico_url": "https://www.nicovideo.jp/watch/sm38056551"
+        },
+        "song_original_data": {
+            "artist": null,
+            "release_date": null,
+            "youtube_url": null,
+            "niconico_url": null
+        }
+    }
+]
